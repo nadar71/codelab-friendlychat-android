@@ -13,10 +13,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.firebase.codelab.friendlychat;
+package com.google.firebase.codelab.friendlychat
 
-public class CodelabPreferences {
-
-    public static final String FRIENDLY_MSG_LENGTH = "friendly_msg_length";
-
+object CodelabPreferences {
+    const val FRIENDLY_MSG_LENGTH = "friendly_msg_length"
 }
